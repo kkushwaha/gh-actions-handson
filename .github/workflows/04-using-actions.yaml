@@ -21,6 +21,7 @@ jobs:
                 node-version: '20.x'
             - name: Install Dependencies
               run: |
+                ls -l
                 npm ci
               working-directory: 04-using-actions/react-app
             - name: Run Unit Tests
